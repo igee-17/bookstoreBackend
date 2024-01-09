@@ -18,7 +18,8 @@ const client = new twilio(accountSid, authToken);
 const corsOption = {
     // origin: "http://localhost:5001",
     // origin: `${process.env.FRONTEND_URL}`,
-    origin: 'http://localhost:5173',
+    // origin: 'http://localhost:5173',
+    origin: 'https://bookstore-vite.netlify.app/',
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
     exposedHeaders: ["x-auth-token"],
