@@ -24,7 +24,7 @@ router.get('/getbooks', async (req, res) => {
 });
 
 // Route to fetch a specific book by ID
-router.get('/api/books/:id', async (req, res) => {
+router.get('/getbooks/:id', async (req, res) => {
     const { id } = req.params;
 
     try {
