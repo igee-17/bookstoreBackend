@@ -1,7 +1,7 @@
 // verificationRoutes.js
 const express = require('express');
 const bodyParser = require('body-parser');
-const sendchampService = require('../middleware/sendchampService');
+const sendchampService = require('../middleware/sendChampService');
 
 const router = express.Router();
 router.use(bodyParser.json());
